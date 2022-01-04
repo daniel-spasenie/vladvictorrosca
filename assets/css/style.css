@@ -1,0 +1,370 @@
+.clearfix{
+	zoom: 1;
+}
+.clearfix:before{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+html, body{
+	font-family: 'Roboto', sans-serif;
+	color:#333;
+	font-weight: 300;
+}
+body{
+	background: #fff;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.header{
+	height:90px;
+	background-color: #fffaedde;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.scrolled{
+	background: #000000e0;
+}
+.sticky{
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index: 999999;
+}
+.header-container{
+	width:1200px;
+	margin:0 auto;
+}
+.logo{
+	float:left;
+	height:90px;
+}
+.login{
+	float:right;
+	height:90px;
+}
+.login a{
+	padding-left: 25px;
+	font-size: 20px;
+	color: #4a9543;
+	font-weight: 300;
+}
+.logo-img{
+	margin: auto;
+	vertical-align: middle;
+	display: inline-block;
+}
+.site-name{
+	margin-left: 10px;
+	font-size: 20px;
+	color: #4a9543;
+	vertical-align: middle;
+	font-weight: 500;
+}
+.language{
+	position: absolute;
+	right: 50px;
+}
+.language a{
+	margin: 0 2px;
+}
+.language img{
+	width:18px;
+}
+.section{
+	min-height: 720px;
+}
+.section-1{
+	padding-top:90px;
+	background: url(/assets/images/bg-2.jpg) no-repeat;
+	background-position: 0 -220px;
+}
+.section-container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.content-box{
+	margin-top: 150px;
+}
+.s1-h{
+	font-size: 31px;
+	color: #2e6f3f;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+.s1-h2{
+	width: 500px;
+	font-size: 50px;
+	font-weight: 600;
+	color: #2e6f3f;
+	line-height: 67px;
+	margin-bottom: 25px;
+}
+.pricing{
+	font-size: 31px;
+	font-weight: 600;
+	color: #f2e8cf;
+	margin-bottom: 25px;
+}
+.offer-link{
+	background:#2e6f3f;
+	color: #f2e8cf;
+	border-radius: 5px;
+	font-weight: 800;
+	padding: 15px;
+	display: block;
+	font-size: 22px;
+	height: 40px;
+	line-height: 40px;
+	width: 200px;
+	text-align: center;
+}
+.offer-link:hover{
+	background: #1f4729;
+	color:#f2e8cf;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.scroll-div{
+	top: 135px;
+	text-align: center;
+	position:relative;
+}
+.scroll-div img{
+	width:16px;
+}
+.section-2{
+	background:#fbfbfbe0;
+}
+.about-title{
+	font-size: 60px;
+	font-weight: 600;
+	text-align: center;
+	color: #2e6f3f;
+	margin: 0px 0 60px 0;
+	padding-top: 45px;
+}
+.about-desc{
+	font-size: 28px;
+	text-align: center;
+	font-weight: 400;
+}
+.about-list{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top:45px;
+}
+.about-list ul{
+	text-align: center;
+}
+.about-item{
+	display:inline-block;
+	margin-bottom: 80px;
+
+}
+.about-item img:hover{
+	transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+	cursor:pointer;
+}
+
+.about-item img {
+	/* width: 200px; */
+	border-radius: 50%;
+	margin: 0 40px;
+	transition: transform 1s; /* Animation */
+}
+.item-desc{
+	width: 200px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 27px;
+	font-weight: 300;
+	color: #2e6f3f;
+	margin-top: 25px;
+	font-size: 28px;
+}
+.learn-more{
+	text-align: center;
+	padding-bottom: 65px;
+}
+.learn-more a{
+	background: #2e6f3f;
+	color: #f2e8cf;
+	border-radius: 5px;
+	font-weight: 800;
+	padding: 15px;
+	display: block;
+	font-size: 22px;
+	height: 40px;
+	margin: 0 auto;
+	line-height: 40px;
+	width: 200px;
+	text-align: center;
+}
+.learn-more a:hover{
+	background:#1f4729;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.section-3{
+	background:url(/assets/images/bg-3.jpg) no-repeat;
+	background-position: center;
+	min-height: 640px;
+}
+.about-list-2{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+.about-list-2 ul{
+	text-align: center;
+	padding: 20px;
+	height: 410px;
+	background: #000000a1;
+}
+.about-item-2{
+	display:inline-block;
+	padding-top: 28px;
+
+}
+.about-item-2 img:hover{
+	transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+	cursor:pointer;
+}
+
+.about-item-2 img {
+	 width: 200px;
+	border-radius: 50%;
+	margin: 0 40px;
+	transition: transform 1s; /* Animation */
+}
+.item-desc-2{
+	width: 200px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 27px;
+	font-weight: 500;
+	color: #f2e8cf;
+	margin-top: 25px;
+	font-size: 28px;
+}
+.item-text-2{
+	width: 280px;
+	line-height: 24px;
+	margin-top: 10px;
+	color: #fff;
+	font-weight: 300;
+	font-size: 20px;
+}
+.footer{
+	background: #f2e8cf;
+	height: 300px;
+	text-align:center;
+	color: #fff;
+	position: relative;
+}
+.footer-logo{
+	padding:15px 0;
+}
+.footer-logo img{
+	width: 200px;
+}
+.footer-h1{
+	font-size: 40px;
+	font-weight: 500;
+	color: #1f4729;
+	margin-bottom: 40px;
+}
+.llc-info{
+	width: 1000px;
+	margin: 0 auto;
+}
+.llc-info ul{
+	border-bottom: 1px solid #1f4729;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	line-height: 22px;
+}
+.llc-info ul li{
+	display: inline-block;
+	padding: 0 10px;
+	color: #1f4729;
+	font-style: italic;
+	font-weight: 300;
+}
+.v-align{
+	position: relative;
+	top: -20px;
+}
+.address{
+	width: 150px;
+}
+.footer-links{
+	height: 35px;
+	width: 1000px;
+	margin: 0 auto;
+}
+.footer-links-left{
+	float:left;
+}
+.footer-links-left a{
+	padding:0 7px;
+	font-weight: 300;
+	color:#1f4729;
+}
+.footer-links-left a:hover{
+	color:#1f4729;
+}
+.footer-links-right{
+	float: right;
+	font-weight: 300;
+	color: #1f4729;
+}
+#btt {
+	display: inline-block;
+	background-color: #2e6f3f;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 4px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	transition: background-color .3s,
+	opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+}
+#btt::after {
+	content: "\f077";
+	font-family: FontAwesome, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2em;
+	line-height: 50px;
+	color: #fff;
+}
+#btt:hover {
+	cursor: pointer;
+	background-color: #1f4729;
+}
+#btt:active {
+	background-color: #1f4729;
+}
+#btt.show {
+	opacity: 1;
+	visibility: visible;
+}
